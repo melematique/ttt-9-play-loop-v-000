@@ -39,7 +39,7 @@ end
 def play(board)
   turn=0
   until turn ==9
-    puts "X"
+    move(board, index)
     turn +=1
   end
 end
