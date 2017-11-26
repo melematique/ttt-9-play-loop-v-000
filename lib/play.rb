@@ -38,12 +38,10 @@ end
 # Define your play method below
 def play(board)
   turn=0
-  until turn ==9
-    turn +=1
-    if valid_move?(board, index)
-      move(board, index)
-      display_board(board)
-    else
-      turn(board)
+  until turn==9
+    turn+=1
+    turn(board)
   end
 end
+    
+  
