@@ -42,4 +42,4 @@ def play(board)
     puts "X"
     turn +=1
   end
-    
+end
